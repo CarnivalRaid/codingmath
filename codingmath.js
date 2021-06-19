@@ -12,3 +12,13 @@ window.onload = function() {
         ctx.stroke();
     }
 };
+
+let getDegrees = (rds) => {
+    let dgs = (rds * 180)/Math.PI;
+    return dgs;
+}
+
+let getRadians = (dgs) => {
+    let rds = (dgs * Math.PI)/180;
+    return rds;
+}
